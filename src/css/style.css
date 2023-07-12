@@ -4,6 +4,19 @@ body{
     color: #ffffff;
 }
 
+body::before{
+    content: "";
+    background-image: url(../imagens/hogwarts.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;/*cobre o fundo inteiro*/
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    background-position: center;
+    opacity: 0.4;
+}
+
 .header{
     display: flex;
     justify-content: center;
@@ -13,6 +26,8 @@ body{
     display: flex;
     align-items: center;
     gap: 30px;
+    min-height: calc(100vh - 152px);/*Altura da tela menos a altura do cabeçalho*/
+    justify-content: center;
 }
 
 .selecao-de-personagens .lista-de-personagens{
@@ -23,7 +38,6 @@ body{
 }
 
 .selecao-de-personagens .personagens{
-    background-color: darkslategray;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -32,7 +46,48 @@ body{
 }
 
 .selecao-de-personagens .personagens .titulo{
-    
+    font-size: 20px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    border-bottom: 2px solid #47f4ff;
+    width: 100%;
+    text-align: center;
+}
+
+.lista-de-personagens .personagem img{
+    width: 100%;
+    height: 100%;
+}
+
+.lista-de-personagens .personagem.selecionado{
+    box-shadow: 0px 0px 24px 5px #0271f7;
+}
+
+.personagem-selecionado {
+    text-align: center;
+    max-height: 530px;
+}
+
+.personagem-selecionado .personagem-grande{
+    width: 430px;
+    height: 430px;
+    background-color: rgba(15, 108, 131, 0.082);
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.personagem-selecionado .nome-personagem{
+    border-bottom: 2px solid #47f4ff;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.personagem-selecionado .descricao-personagem{
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 20px;
+    width: 420px;
 }
 
 

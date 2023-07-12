@@ -1,15 +1,55 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Harry Potter</title>
+    <title> Projeto Harry Potter</title>
     <link rel="shortcut icon" href="./src/imagens/owl-icon.png" type="image/x-icon" class="icon">
-
-    <link rel="stylesheet" href="style.css">
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
 </head>
+
 <body>
-    
-    
+    <header class="header">
+        <img class="logo" src="./src/imagens/logo.png" alt="Logo-harry-potter">
+    </header>
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1>Selecione um personagem</h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem" id="harry-potter"><img src="./src/imagens/harrycardp.jpg"
+                        alt="Foto do Harry Potter"></li>
+                <li class="personagem" id="hermione"><img src="./src/imagens/hermionep.jpg"
+                        alt="Foto da Hermione Granger"></li>
+                <li class="personagem" id="rony"><img src="./src/imagens/ronyp.jpg" alt="Foto do Rony Weasley"></li>
+                <li class="personagem" id="doby"><img src="./src/imagens/dobbyp.jpeg"
+                        alt="Foto do elfo doméstico Dobby"></li>
+                <li class="personagem" id="edwiges"><img src="./src/imagens/edwiges.jpeg" alt="Foto da coruja Edwiges">
+                </li>
+                <li class="personagem" id="malfoy"><img src="./src/imagens/malfoyp.jpg" alt="Foto do Malfoy"></li>
+            </ul>
+        </section>
+
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./src/imagens/harry-Potterg.png" alt="Personagem selecionado">
+
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Harry Potter</h2>
+                <p class="descricao-personagem" id="descricao-personagem"> Órfão desde bebê, Harry descobre aos 11 anos
+                    que é na verdade um bruxo e que seus pais foram assassinados por um poderoso bruxo das trevas
+                    chamado Lord Voldemort. Ele é convidado a estudar na Escola de Magia e Bruxaria de Hogwarts, onde
+                    conhece seus amigos Rony Weasley e Hermione Granger.</p>
+            </div>
+        </section>
+    </main>
+
 </body>
+
 </html>

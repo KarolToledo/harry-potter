@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+
 body{
-    font-family: 'Oxanium', cursive;
+    font-family: 'Roboto', sans-serif;
     background-color: #000000;
     color: #ffffff;
+    user-select: none;
 }
 
 body::before{
@@ -71,7 +75,7 @@ body::before{
 .personagem-selecionado .personagem-grande{
     width: 430px;
     height: 430px;
-    background-color: rgba(15, 108, 131, 0.082);
+    background-color: rgba(208, 224, 228, 0.144);
     padding: 15px;
     border-radius: 50%;
 }

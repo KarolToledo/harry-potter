@@ -1,5 +1,5 @@
 @media (max-width: 1120px){
-    .cabecalho .logo{
+    .header .logo{
         max-width: 190px;
     }
 
@@ -36,3 +36,4 @@
         margin: 20px auto;    
     }
 }
+

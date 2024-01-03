@@ -19,3 +19,6 @@ Ese projeto foi realizado utilizando um outro projeto como base, foram modificad
 ![Alt text](src/imagens/HTML5-logop.png)
 ![Alt text](src/imagens/CSS3-logop.png)
 ![Alt text](src/imagens/javascriptP.png)
+
+## Aqui está uma pequena amostra do projeto
+![Alt text](src/video/Vídeo-harry-potter.gif)
